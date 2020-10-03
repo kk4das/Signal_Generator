@@ -58,6 +58,8 @@ Revision:  1.0,  25-Jan-2020
    FQ_UD   | Pin 9 - connect to freq update pin (FQ)
    DATA    | Pin 10 - connect to serial data load pin (DATA)
    RESET   | Pin 11 - connect to reset pin (RST) 
+   VCC     | +5
+   Gnd     | Gnd
 
    Encoder | Arduino
    --------|--------
@@ -67,8 +69,10 @@ Revision:  1.0,  25-Jan-2020
    
    LCD/I2C | Arduino
    --------|--------
-      SDA  |  4
-      SCL  |  5
+   SDA     |  4
+   SCL     |  5
+   VCC     | +5
+   Gnd     | Gnd
 
    Pot | Connects to
    ----|------------
