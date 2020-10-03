@@ -19,7 +19,7 @@ Revision:  1.0,  25-Jan-2020
      
      
      Create a folder called KK4DASSigGen and install the the source files there.  The main sketch is KK4DASSigGen.ino.  Open it in the 
-     Arduino
+     Arduino IDE. It should compile with no errors.
      
      A schematic and Fritzing diagram are included for reference.
 
