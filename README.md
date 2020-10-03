@@ -27,7 +27,7 @@ Revision:  1.0,  25-Jan-2020
   
       Arduino Nano
       
-      Board: WINGONEER DDS Signal Generator Module 0-40MHz AD9850 2 Sine Wave and 2 Square Wave 
+      WINGONEER DDS Signal Generator Module 0-40MHz AD9850 2 Sine Wave and 2 Square Wave 
           https://www.amazon.com/gp/product/B082143FD9
       Data sheet: https://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
 
