@@ -50,29 +50,31 @@
 
       Optional - 0.1" female headers on the breadboard make it easy to wire the components up in the case
 
-//////////////////////////////////////////////////////////////////////
- AD9850 Pin Numbers
-//////////////////////////////////////////////////////////////////////
-#define W_CLK 8            Pin 8 - connect to AD9850 module word load clock pin (CLK)
-#define FQ_UD 9            Pin 9 - connect to freq update pin (FQ)
-#define DATA 10            Pin 10 - connect to serial data load pin (DATA)
-#define RESET 11           Pin 11 - connect to reset pin (RST) 
 
-//////////////////////////////////////////////////////////////////////
+AD9850 Pin Numbers:
+
+   AD9850  | Arduio
+   --------|--------
+   W_CLK   | Pin 8 - connect to AD9850 module word load clock pin (CLK)
+   FQ_UD   | Pin 9 - connect to freq update pin (FQ)
+   DATA    | Pin 10 - connect to serial data load pin (DATA)
+   RESET   | Pin 11 - connect to reset pin (RST) 
+
  Rotary Encoder Pin Numbers 
-//////////////////////////////////////////////////////////////////////
+
 #define ENCODER_A    2     Encoder pin A  D2 (interrupt pin)
 #define ENCODER_B    3     Encoder pin B  D3 (interrupt pin)
 #define ENCODER_BTN  A3    Encoder push button
 
-//////////////////////////////////////////////////////////////////////
+
  I2C Bus Pins for LCD
       SDA         4
       SCL         5
-//////////////////////////////////////////////////////////////////////
 
-//////////////////////////////////////////////////////////////////////
+
+
 Linear Pot Wiring
+
 The linear potentiometer is used as a variable attenuator.  One end is connected
 to the Sin-B output on the AD-9850, the other end is connected to ground. The wiper goes
 to the center pin of the BNC connector.
