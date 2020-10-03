@@ -11,11 +11,17 @@ Revision:  1.0,  25-Jan-2020
  
  There are various versions of this floatiing around the internet.  This is my implementation.
  
-# Requires:
+# Build Instructons:
   
-     DDS Library: Paul Darlinton, M0XPD
+     Download the Arduino DDS Library by Paul Darlinton, M0XPD and install using the Arduino IDE library manager.
             https://github.com/m0xpd/DDS
             http://m0xpd.blogspot.com/2014/03/dds-and-duedds-libraries.html
+     
+     
+     Create a folder called KK4DASSigGen and install the the source files there.  The main sketch is KK4DASSigGen.ino.  Open it in the 
+     Arduino
+     
+     A schematic and Fritzing diagram are included for reference.
 
 # Components:
   
