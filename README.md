@@ -61,18 +61,18 @@ Revision:  1.0,  25-Jan-2020
 
    Encoder | Arduino
    --------|--------
-    A      | 2  -  Encoder pin A  D2 (interrupt pin)
-    B      | 3  -  Encoder pin B  D3 (interrupt pin)
-    BTN     |A3 -  Encoder push button
-
+   A       | 2  -  Encoder pin A  D2 (interrupt pin)
+   B       | 3  -  Encoder pin B  D3 (interrupt pin)
+   BTN     | A3 -  Encoder push button
+   
    LCD/I2C | Arduino
    --------|--------
       SDA  |  4
       SCL  |  5
 
-   10K Pot | 
-   --------|--------
-      1    | AD-9850 Sin B
-      2    | Wiper goes to center pin of BNC
-      3    | Gnd
+   Pot | Connects to
+   ----|------------
+   1   | AD-9850 Sin B
+   2   | Wiper goes to center pin of BNC
+   3   | Gnd
 
