@@ -5,11 +5,11 @@ Revision:  1.0,  25-Jan-2020
 
 # Description:
  
- The signal generator outputs a sine wave from DC to ~62 MHz using an Arduino Nano and Analog Devices AD9850 Direct Digital Synthesizer. A 10K linear
- taper potentiomenter is used as a variable attenuator. The display is 16x2 I2C LCD.  The control is a Rotary Digital Encoder with pushbutton. Turn the encoder
- to change frequence.  Push the button to select the tuning increment.
- 
- There are various versions of this floatiing around the internet.  This is my implementation.
+The signal generator outputs a sine wave from DC to ~62 MHz using an Arduino Nano and Analog Devices AD9850 Direct Digital Synthesizer. A 10K linear
+taper potentiometer is used as a variable attenuator. The display is 16x2 I2C LCD. The control is a Rotary Digital Encoder with push button. Turn the
+encoder to change frequency Push the button to select the tuning increment.
+
+There are various versions of this floating around the internet. This is my implementation
  
 # Build Instructions:
   
