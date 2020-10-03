@@ -12,11 +12,13 @@
  There are various versions of this floatiing around the internet.  This is my implementation.
  
   Requires:
+  
      DDS Library: Paul Darlinton, M0XPD
             https://github.com/m0xpd/DDS
             http://m0xpd.blogspot.com/2014/03/dds-and-duedds-libraries.html
 
   Components:
+  
       Arduino Nano
       
       Board: WINGONEER DDS Signal Generator Module 0-40MHz AD9850 2 Sine Wave and 2 Square Wave 
@@ -34,6 +36,7 @@
 
 
  Enclosure and permanent mounting:
+ 
       Enclosure - 3x2" plastic enclosure
             https://www.mpja.com/3in-X-2in-X-11in-Black-Plastic-Box-Enclosure/productinfo/15522+BX/
 
