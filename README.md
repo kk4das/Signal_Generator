@@ -11,7 +11,7 @@ Revision:  1.0,  25-Jan-2020
  
  There are various versions of this floatiing around the internet.  This is my implementation.
  
-# Build Instructons:
+# Build Instructions:
   
      Download the Arduino DDS Library by Paul Darlinton, M0XPD and install using the Arduino IDE library manager.
             https://github.com/m0xpd/DDS
