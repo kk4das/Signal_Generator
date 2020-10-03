@@ -1,7 +1,7 @@
 # Signal_Generator
 
-# Author:    Dean Souleles, KK4DAS
-# Revision:  1.0,  25-Jan-2020
+Author:    Dean Souleles, KK4DAS
+Revision:  1.0,  25-Jan-2020
 
 # Description:
  
@@ -11,13 +11,13 @@
  
  There are various versions of this floatiing around the internet.  This is my implementation.
  
-  Requires:
+# Requires:
   
      DDS Library: Paul Darlinton, M0XPD
             https://github.com/m0xpd/DDS
             http://m0xpd.blogspot.com/2014/03/dds-and-duedds-libraries.html
 
-  Components:
+# Components:
   
       Arduino Nano
       
@@ -35,7 +35,7 @@
             https://www.mouser.com/ProductDetail/Bourns/PDB181-K415K-103B?qs=Zq5ylnUbLm7hRcKeZmRxRw%3D%3D
 
 
- Enclosure and permanent mounting:
+# Enclosure and permanent mounting:
  
       Enclosure - 3x2" plastic enclosure
             https://www.mpja.com/3in-X-2in-X-11in-Black-Plastic-Box-Enclosure/productinfo/15522+BX/
@@ -50,32 +50,29 @@
 
       Optional - 0.1" female headers on the breadboard make it easy to wire the components up in the case
 
+# Wiring:
 
-AD9850 Pin Numbers:
-
-   AD9850  | Arduio
+   AD9850  | Arduino
    --------|--------
    W_CLK   | Pin 8 - connect to AD9850 module word load clock pin (CLK)
    FQ_UD   | Pin 9 - connect to freq update pin (FQ)
    DATA    | Pin 10 - connect to serial data load pin (DATA)
    RESET   | Pin 11 - connect to reset pin (RST) 
 
- Rotary Encoder Pin Numbers 
+   Encoder | Arduino
+   --------|--------
+    A      | 2  -  Encoder pin A  D2 (interrupt pin)
+    B      | 3  -  Encoder pin B  D3 (interrupt pin)
+    BTN     |A3 -  Encoder push button
 
-#define ENCODER_A    2     Encoder pin A  D2 (interrupt pin)
-#define ENCODER_B    3     Encoder pin B  D3 (interrupt pin)
-#define ENCODER_BTN  A3    Encoder push button
+   LCD/I2C | Arduino
+   --------|--------
+      SDA  |  4
+      SCL  |  5
 
+   10K Pot | 
+   --------|--------
+      1    | AD-9850 Sin B
+      2    | Wiper goes to center pin of BNC
+      3    | Gnd
 
- I2C Bus Pins for LCD
-      SDA         4
-      SCL         5
-
-
-
-Linear Pot Wiring
-
-The linear potentiometer is used as a variable attenuator.  One end is connected
-to the Sin-B output on the AD-9850, the other end is connected to ground. The wiper goes
-to the center pin of the BNC connector.
-//////////////////////////////////////////////////////////////////////
