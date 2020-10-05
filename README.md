@@ -43,9 +43,9 @@ There are various versions of this floating around the internet. This is my impl
 
 
 # Enclosure and permanent mounting:
- 
-      Enclosure - 3x2" plastic enclosure
-            https://www.mpja.com/3in-X-2in-X-11in-Black-Plastic-Box-Enclosure/productinfo/15522+BX/
+            
+      Enclosure - 4"x3" plastic enclosure
+            https://www.mpja.com/4in-X-3in-X-16in-Black-Plastic-Box-Enclosure/productinfo/15523+BX/ 
 
       Panel mount BNC Connector
             https://www.mpja.com/BNC-Type-Connector-UG-1094-Female-Single-Hole-Mount/productinfo/20507+RC/ 
