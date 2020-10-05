@@ -27,8 +27,9 @@ There are various versions of this floating around the internet. This is my impl
   
       Arduino Nano
       
-      WINGONEER DDS Signal Generator Module 0-40MHz AD9850 2 Sine Wave and 2 Square Wave 
-          https://www.amazon.com/gp/product/B082143FD9
+      DDS Signal Generator Module - any one of the AD9850 boards should work. I used each of these at different times:
+        https://www.amazon.com/HiLetgo-AD9850-Generator-0-40MHz-Equipment/dp/B01J7XPWNU/
+        https://www.amazon.com/gp/product/B082143FD9 
       Data sheet: https://www.analog.com/media/en/technical-documentation/data-sheets/AD9850.pdf
 
       16x2 I2C LCD display
